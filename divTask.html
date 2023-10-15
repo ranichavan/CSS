@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML page sections</title>
+    <link rel="icon" href="fav.jpg" />
+    <style>
+        /* div{
+            border: 1px black solid;
+        } */
+        .main{
+            width: 1000px;
+            height: 640px;
+            background-color: bisque;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .row1{
+            width: 1000px;
+            height: 100px;
+            background-color: lightblue;
+        }
+        .row2{
+            width: 1000px;
+            height: 40px;
+            background-color: lightyellow;
+        }
+        .row2-col1,.row2-col2,.row2-col3,.row2-col4,.row2-col5{
+            width: 200px;
+            height: 40px;            
+            float: left;
+        }
+        .row2-col1{
+            background-color: aqua;
+        }
+        .row2-col2{
+            background-color: red;
+        }
+        .row2-col3{
+            background-color: blueviolet;
+        }
+        .row2-col4{
+            background-color: yellow;
+        }
+        .row2-col5{
+            background-color: gray;
+        }
+        .row3{
+            height: 200px;
+            width: 1000px;
+            background-color: honeydew;
+        }
+        .row3-col1{
+            height: 200px;
+            width: 250px;
+            background-color: beige;
+            float: left;
+        }
+        .row3-col1-row1,.row3-col1-row2,.row3-col1-row3,.row3-col1-row4,.row3-col1-row5{
+            width: 250px;
+            height: 40px;
+        }
+        .row3-col1-row1{
+            background-color: lightcoral;
+        }
+        .row3-col1-row2{
+            background-color: lightgray;
+        }
+        .row3-col1-row3{
+            background-color: lightpink;
+        }
+        .row3-col1-row4{
+            background-color: lightslategray;
+        }
+        .row3-col1-row5{
+            background-color: lightgreen;   
+        }
+        .row3-col2{
+            height: 200px;
+            width: 750px;
+            background-color: brown;
+            float: left;
+            
+        }
+        .row4{
+            width: 1000px;
+            height: 150px;
+            background-color: gold;
+        }
+        .row5{
+            width: 1000px;
+            height: 100px;
+            background-color: gray;
+        }
+        .row5-col1, .row5-col2, .row5-col3{
+            width: 330px;
+            height: 100px;
+            float: left;
+        }
+        .row5-col1{
+            background-color: green;
+        }
+        .row5-col2{
+            background-color: pink;
+        }
+        .row5-col3{
+            background-color: purple;
+        }
+        .row6{
+            width: 1000px;
+            height: 50px;
+            background-color: red
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row1"></div>
+        <div class="row2">
+            <div class="row2-col1">Home</div>
+            <div class="row2-col2">About</div>
+            <div class="row2-col3">Course</div>
+            <div class="row2-col4">Gallary</div>
+            <div class="row2-col5">Contact Us</div>
+        </div>
+        <div class="row3">
+            <div class="row3-col1">
+                <div class="row3-col1-row1">Home</div>
+                <div class="row3-col1-row2">About</div>
+                <div class="row3-col1-row3">Course</div>
+                <div class="row3-col1-row4">Gallary</div>
+                <div class="row3-col1-row5">Contact Us</div>
+            </div>
+            <div class="row3-col2">Image</div>
+        </div>
+        <div class="row4">Our Clients</div>
+        <div class="row5">
+            <div class="row5-col1">Image</div>
+            <div class="row5-col2">Image</div>
+            <div class="row5-col3">Image</div>
+        </div>
+        <div class="row6">Home | About | Course | Gallary | Contact US</div>
+    </div>
+</body>
+</html>
